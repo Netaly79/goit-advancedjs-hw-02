@@ -21,6 +21,7 @@ button {
   margin-top: 50px;
   padding: 20px;
   border-radius: 5px;
+
 }
 
 #datetime-picker {
@@ -29,7 +30,7 @@ button {
   border-radius: 5px;
 }
 
-[data-start] {
+[data-start], [data-stop], #submit {
   font-size: 16px;
   padding: 10px 20px;
   background-color: #569ff7;
@@ -37,7 +38,9 @@ button {
   border-color: #569ff7;
 }
 
-[data-start]:disabled {
+[data-start]:disabled,
+[data-stop]:disabled,
+#submit:disabled {
   background-color: lightgrey;
   border-color: lightgray;
 }
